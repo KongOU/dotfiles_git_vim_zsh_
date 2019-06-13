@@ -1,0 +1,28 @@
+" *********************************************
+" *               Vim Plugins                 *
+" *********************************************
+
+call plug#begin('~/.vim/bundle')
+
+Plug 'VundleVim/Vundle.vim'
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-endwise'
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ervandew/supertab'
+Plug 'Raimondi/delimitMate'
+Plug 'janko/vim-test'
+Plug 'majutsushi/tagbar'
+Plug 'ngmy/vim-rubocop'
+Plug 'bogado/file-line'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'itspriddle/vim-marked'
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/tpope-vim-abolish'
+Plug 'kristijanhusak/vim-carbon-now-sh'
+
+call plug#end()
