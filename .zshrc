@@ -77,14 +77,14 @@ ZSH_THEME="spaceship"
 # ruby
 # bundler
 # copyfile
+# web-search
+# dnf
 plugins=(
   git
   vscode
-  web-search
   z
   asdf
   httpie
-  dnf
   command-not-found
   zsh-syntax-highlighting
   zsh-autosuggestions
@@ -122,6 +122,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Yarn
+export PATH="$PATH:/opt/yarn-[version]/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
